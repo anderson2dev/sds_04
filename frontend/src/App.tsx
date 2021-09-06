@@ -1,10 +1,15 @@
+import { DataTable } from "components/DataTable";
+import { Footer } from "components/Footer";
+import { NavBar } from "components/NavBar";
+
 function App() {
   return (
-    <div className="App">
-      <p className="text-secondary">
-          Hello mundo
-      </p>
-    </div>
+    <>
+      <NavBar />
+        <DataTable />
+      <Footer />
+    </>
+
   );
 }
 
